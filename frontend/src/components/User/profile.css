@@ -1,0 +1,102 @@
+.mainProfile {
+  position: absolute;
+  left: 500px;
+  top: 150px;
+}
+
+.account {
+  color: rgba(0, 0, 0, 0.555);
+  font: 500 2.2vmax 'Roboto';
+  margin-left: 40%;
+}
+
+.profile {
+  width: 25vmax;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.userInfo {
+  width: 100%;
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.dateDetail {
+  font-weight: 200;
+  color: gray;
+  text-align: center;
+}
+
+.userFullname {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 5px;
+  font-weight: 500;
+}
+
+.aDetails {
+  font-weight: 200;
+  color: gray;
+  align-items: flex-start;
+}
+
+.items {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.data {
+  font-weight: 300;
+}
+
+.profile > a {
+  margin-top: 2vmax;
+}
+
+.editDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.edit {
+  width: 11vmax;
+  background-color: #3d3b3b;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 0.5vmax;
+  font: 200 1vmax;
+}
+
+@media only screen and (max-width: 600px) {
+  .mainProfile {
+    position: static;
+    left: auto;
+    top: auto;
+  }
+  .account {
+    margin-left: 0;
+    text-align: center;
+  }
+  .profile {
+    width: 80%;
+    padding: 20px;
+  }
+  .userFullname {
+    font-size: 1.5rem;
+  }
+  .edit {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,38 @@
+.categoryCard {
+  width: 14vmax;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: rgb(48, 48, 48);
+  margin: 2vmax;
+  transition: all 0.5s;
+  padding-bottom: 0.5vmax;
+  border-radius: 2%;
+  box-shadow: 0 0 5px rgba(15, 15, 15, 0.26);
+}
+
+.categoryCard > img {
+  width: 14vmax;
+}
+
+.categoryCard > p {
+  font-family: 'Roboto';
+  font-size: 1.2vmax;
+  margin: 1vmax 0.5vmax;
+  margin-bottom: 0;
+}
+.spec {
+  display: grid;
+  grid-template-columns: 4fr 1.5fr;
+  font-size: 13px;
+}
+
+.categoryCard > span {
+  margin: 0.5vmax;
+  color: tomato;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1vmax;
+}
+.categoryCard:hover {
+  transform: translateY(-1vmax);
+}

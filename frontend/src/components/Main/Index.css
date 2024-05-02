@@ -1,0 +1,115 @@
+.view {
+  display: grid;
+  justify-content: center;
+}
+.view a {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #007bff;
+  text-decoration: none;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.7s ease;
+}
+.view a:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+.homeHeading {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 1.4vmax;
+  border-bottom: 1px solid rgba(21, 21, 21, 0.5);
+  width: 20vmax;
+  padding: 1vmax;
+  margin: 5vmax auto;
+  color: rgb(0, 0, 0, 0.7);
+}
+.categoryHeading {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 1.4vmax;
+  border-bottom: 1px solid rgba(21, 21, 21, 0.5);
+  width: 20vmax;
+  padding: 1vmax;
+  margin: 5vmax auto;
+  color: rgb(0, 0, 0, 0.7);
+}
+.container {
+  margin-top: -5%;
+  height: 700px;
+}
+.buy_rent_toggle {
+  display: flex;
+  justify-content: space-evenly;
+  height: 3vmax;
+}
+.buy_rent_toggle p:first-child {
+  margin-right: 10px;
+}
+
+.buy_rent_toggle > p {
+  color: rgba(0, 0, 0, 0.678);
+  font: 300 2vmax 'Roboto';
+  transition: all 0.5s;
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: 4fr 1fr 1.25fr;
+
+  width: 100%;
+}
+.buy_rent_toggle > p:hover {
+  color: #007bff;
+}
+.container > div > button {
+  background-color: #007bff;
+  height: 3px;
+  margin-left: -3%;
+  width: 45%;
+  border: none;
+  transition: all 0.5s;
+}
+
+.buy {
+  display: flex;
+  margin: 2vmax auto;
+  width: 80vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+}
+.rent {
+  transform: translateY(-40%) translateX(-90vmax);
+  display: flex;
+  margin: 2vmax auto;
+  width: 80vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.shiftToLeft {
+  transform: translateX(-110%);
+}
+.shiftToNeutral {
+  transform: translateX(0%);
+}
+
+.shiftToNeutralForm {
+  transform: translateX(-0%) translateY(-100%);
+}
+
+.shiftToRight {
+  transform: translateX(100%);
+}
+.category {
+  display: flex;
+  margin: 2vmax auto;
+  width: 80vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+}
